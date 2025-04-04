@@ -1,0 +1,83 @@
+/* App.css */
+
+/* Estilo global para el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Color de fondo */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+div {
+  background-color: #ffffff; /* Fondo blanco para el contenido principal */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  width: 100%;
+  max-width: 600px; /* Limitar el tamaño máximo de la app */
+  text-align: center; /* Centrar el texto */
+}
+
+/* Título */
+h1 {
+  color: #333; /* Color del título */
+}
+
+/* Estilo del formulario */
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Botón de agregar tarea */
+button {
+  background-color: #4CAF50; /* Color de fondo verde */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049; /* Color de fondo cuando se pasa el mouse */
+}
+
+/* Estilo de la lista de tareas */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9; /* Color de fondo de las tareas */
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+li button {
+  background-color: #ff6347; /* Color rojo para el botón de eliminar */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #e04f3d; /* Rojo más oscuro al pasar el mouse */
+}
